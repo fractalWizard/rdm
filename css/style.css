@@ -227,3 +227,13 @@ body {
      -o-animation: fade 1.3s; /* Opera < 12.1 */
         animation: fade 1.3s;
 }
+
+.progress-gauge {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	position: absolute;
+	width: 200px;
+	left: 80%;
+	margin-top: 50px;
+}
